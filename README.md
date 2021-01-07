@@ -21,7 +21,7 @@ If seaborn is so awesome, you may be wondering why we bothered teaching you Matp
 
 The plot on the left is a standard plot from Matplotlib. The plot on the right is from Seaborn. What a difference!
 
-| ![png](images/ugly_plot.png) | ![png](images/pretty_plot.png) |
+| <img src='images/ugly_plot.png'> | <img src='images/pretty_plot.png'> |
 |---------------------------|-----------------------------|
 
 ### When to Use Each
@@ -75,3 +75,8 @@ One of the coolest features of Seaborn is the ability to create complex plots li
 ## Summary
 
 In this lesson, we learned all about Seaborn!
+
+
+```python
+
+```
