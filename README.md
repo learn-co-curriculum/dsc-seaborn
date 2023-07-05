@@ -1,4 +1,3 @@
-
 # Seaborn
 
 ## Introduction
@@ -75,8 +74,3 @@ One of the coolest features of Seaborn is the ability to create complex plots li
 ## Summary
 
 In this lesson, we learned all about Seaborn!
-
-
-```python
-
-```
