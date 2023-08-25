@@ -20,7 +20,7 @@ If seaborn is so awesome, you may be wondering why we bothered teaching you Matp
 
 The plot on the left is a standard plot from Matplotlib. The plot on the right is from Seaborn. What a difference!
 
-| <img src='images/ugly_plot.png'> | <img src='images/pretty_plot.png'> |
+| <img src='https://curriculum-content.s3.amazonaws.com/data-science/images/ugly_plot.png'> | <img src='https://curriculum-content.s3.amazonaws.com/data-science/images/pretty_plot.png'> |
 |---------------------------|-----------------------------|
 
 ### When to Use Each
@@ -47,7 +47,7 @@ tips = sns.load_dataset('tips') # Seaborn comes prepackaged with several differe
 boxplot = sns.boxplot(data=tips["total_bill"])
 ```
 
-<img src='images/boxplot-1.png'>
+<img src='https://curriculum-content.s3.amazonaws.com/data-science/images/boxplot-1.png'>
 
 ### Boxplot Grouped by Categorical Variable
 
@@ -55,7 +55,7 @@ boxplot = sns.boxplot(data=tips["total_bill"])
 sns.boxplot(x="day", y="total_bill", data=tips)
 ```
 
-<img src='images/boxplot-2.png'>
+<img src='https://curriculum-content.s3.amazonaws.com/data-science/images/boxplot-2.png'>
 
 ### More Complex Boxplot with Nest Grouping of Categorical Variables
 
@@ -63,13 +63,13 @@ sns.boxplot(x="day", y="total_bill", data=tips)
 sns.boxplot(x="day", y="total_bill", hue="smoker", data=tips, palette="Set3")
 ```
 
-<img src='images/boxplot-3.png'>
+<img src='https://curriculum-content.s3.amazonaws.com/data-science/images/boxplot-3.png'>
 
 ## Regression Plots
 
 One of the coolest features of Seaborn is the ability to create complex plots like **_Regression Plots_**, which automatically perform regression and fit a line to your data. We'll learn to create these ourselves in the next lab--as you'll see, it's quite simple!
 
-<img src='images/regression.png'>
+<img src='https://curriculum-content.s3.amazonaws.com/data-science/images/regression.png'>
 
 ## Summary
 
